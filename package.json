@@ -1,0 +1,17 @@
+{
+  "name": "my-node-project",
+  "version": "1.0.0",
+  "description": "A sample Node.js project",
+  "main": "index.js",
+  "scripts": {
+    "static": "serve -p 5050 static",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodrigo Salgado",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^5.0.0",
+    "fastify-cli": "^7.0.1",
+    "serve": "^14.2.4"
+  }
+}
