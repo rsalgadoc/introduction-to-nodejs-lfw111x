@@ -15,6 +15,9 @@ import {
 // Create a new Command Program 
 const program = new Command();
 
+// Set the categories
+const categories = ["confectionery", "electronics"];
+
 // Create a new Program
 program
   // Set the name of the program
